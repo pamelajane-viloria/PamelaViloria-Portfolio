@@ -3,7 +3,6 @@
     <AppHeader />
     <HeroSection />
     <AboutSection />
-    <SkillsSection />
     <ProjectsSection />
     <ContactSection />
     <AppFooter />
@@ -14,7 +13,6 @@
 import AppHeader from '@/components/Header.vue';
 import HeroSection from '@/components/Hero.vue';
 import AboutSection from '@/components/About.vue';
-import SkillsSection from '@/components/Skills.vue';
 import ProjectsSection from '@/components/Projects.vue';
 import ContactSection from '@/components/Contact.vue';
 import AppFooter from '@/components/Footer.vue';
@@ -25,7 +23,6 @@ export default {
     AppHeader,
     HeroSection,
     AboutSection,
-    SkillsSection,
     ProjectsSection,
     ContactSection,
     AppFooter
@@ -41,6 +38,6 @@ export default {
   font-family: 'Montserrat', sans-serif;  
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #111827;
+  color: #e5e5e5;
 }
 </style>
